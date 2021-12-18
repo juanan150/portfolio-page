@@ -22,6 +22,6 @@ export const NavItems = [
     hasSocialIcons: true,
   },
   {
-    hasCTA: false,
+    hasCTA: true,
   },
 ]

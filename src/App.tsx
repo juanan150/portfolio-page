@@ -2,7 +2,7 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './components/styles/GlobalStyles'
 import NavBar from './components/layout/NavBar'
 
-function App() {
+function App(): JSX.Element {
   const theme = {
     colors: {
       white: 'rgba(240, 247, 255, 1)',

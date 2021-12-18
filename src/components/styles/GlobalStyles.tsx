@@ -24,18 +24,22 @@ export const GlobalStyles = createGlobalStyle`
 
 html {
     font-family: 'Share Tech Mono', monospace;
-    color: ${(props: iProps) => props.theme.colors.white};
-    background: ${(props: iProps) => props.theme.colors.navyBlue};
+    color: ${(props: iProps): string => props.theme.colors.white};
+    background: ${(props: iProps): string => props.theme.colors.navyBlue};
     font-sixe: 12px;
+}
+
+body{
+  height: 200vh;
 }
 
 a {
     text-decoration: none;
-    color: ${(props: iProps) => props.theme.colors.green};
+    color: ${(props: iProps): string => props.theme.colors.green};
     transition: all 250ms ease-in.out;
 
     &:hover{
-        color: ${(props: iProps) => props.theme.colors.orange};
+        color: ${(props: iProps): string => props.theme.colors.orange};
     }
 }
 
@@ -46,8 +50,8 @@ ul{
 hr{
     background: linear-gradient(
         to right,
-        ${(props) => props.theme.colors.orange} 0%,
-        ${(props) => props.theme.colors.purple} 100%
+        ${(props): string => props.theme.colors.orange} 0%,
+        ${(props): string => props.theme.colors.purple} 100%
     );
     border: 0;
     height: 1px;
