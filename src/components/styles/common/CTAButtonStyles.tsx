@@ -30,6 +30,8 @@ export const CTAButton = styled.a<iProps>`
   font-weight: 500;
   cursor: pointer;
   display: inline-block;
+  border-radius: 5px;
+  transition: ${(props: iProps): string => props.theme.transition};
 
   &:hover {
     background: ${(props: iProps): string =>

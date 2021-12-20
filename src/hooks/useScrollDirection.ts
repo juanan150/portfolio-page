@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 
 const useScrollDirection = (): string => {
-  const [y, setY] = useState('')
+  const [y, setY] = useState('up')
 
   const handleNavigation = useCallback((e) => {
     const window = e.currentTarget

@@ -29,10 +29,6 @@ html {
     font-sixe: 12px;
 }
 
-body{
-  height: 200vh;
-}
-
 a {
     text-decoration: none;
     color: ${(props: iProps): string => props.theme.colors.green};
