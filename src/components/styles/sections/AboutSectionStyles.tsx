@@ -43,9 +43,7 @@ export const StyledAboutSection = styled.section`
   padding: 0 3rem;
   width: 100%;
   height: 70vh;
-  background: rgba(2, 12, 27, 0.8) 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: rgba(2, 12, 27, 0.8);
 
   @media (max-width: ${(props: iProps): string => props.theme.mobile}) {
     flex-direction: column;

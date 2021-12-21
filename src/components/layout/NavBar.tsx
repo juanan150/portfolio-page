@@ -12,7 +12,7 @@ import {
   Profile,
   SocialIcons,
 } from '../styles/layout/NavStyles'
-import { NavItems } from '../../data/NavItems'
+import { NavItems } from '../../data/navItems'
 import { CTAButton } from '../styles/common/CTAButtonStyles'
 import useScrollDirection from '../../hooks/useScrollDirection'
 

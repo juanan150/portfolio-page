@@ -15,7 +15,7 @@ const HeroSection = () => {
       <HeroContent>
         <h1>Juan Andres Quiroz</h1>
         <h3>{'{Full Stack Web Developer}'}</h3>
-        <p>JavaScript . React . Node</p>
+        <p>JavaScript . React . Node.js</p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
         </div>
