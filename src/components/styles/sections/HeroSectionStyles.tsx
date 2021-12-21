@@ -145,21 +145,22 @@ export const StyleArrowDown = styled.a`
 export const HeroSocialIcons = styled.div`
   position: fixed;
   right: 20px;
+  z-index: 10;
   @media (max-width: ${(props: iProps): string => props.theme.mobile}) {
     bottom: 50px;
   }
 `
 
 export const SocialIcon = styled.a`
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: rgba(249, 105, 14, 0.1);
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 10px;
 
   svg {

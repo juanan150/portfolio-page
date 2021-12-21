@@ -27,6 +27,7 @@ html {
     color: ${(props: iProps): string => props.theme.colors.white};
     background: ${(props: iProps): string => props.theme.colors.navyBlue};
     font-sixe: 12px;
+    scroll-behavior: smooth;
 }
 
 a {

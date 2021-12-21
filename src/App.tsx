@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './components/styles/GlobalStyles'
 import NavBar from './components/layout/NavBar'
 import HeroSection from './components/sections/HeroSection'
+import AboutSection from './components/sections/AboutSection'
 
 function App(): JSX.Element {
   const theme = {
@@ -23,6 +24,7 @@ function App(): JSX.Element {
         <GlobalStyles />
         <NavBar />
         <HeroSection />
+        <AboutSection />
       </ThemeProvider>
     </>
   )
