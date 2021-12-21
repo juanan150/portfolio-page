@@ -40,7 +40,7 @@ export const StyledAboutSection = styled.section`
   justify-content: flex-start;
   position: relative;
   text-align: center;
-  padding: 0 3rem;
+  padding: 0 15%;
   width: 100%;
   height: 70vh;
   background: rgba(2, 12, 27, 0.8);
@@ -73,7 +73,7 @@ export const AboutImage = styled.img`
   width: 190px;
   position: absolute;
   top: calc(50% - 95px);
-  left: calc(3rem + 5px);
+  left: calc(15% + 5px);
   aspect-ratio: 1;
   border-radius: 50%;
   border: 5px solid rgba(2, 12, 27, 0.8);
@@ -120,7 +120,7 @@ export const AboutTextContainer = styled.div<iProps>`
 `
 
 export const AboutSectionEnd = styled.hr<iProps>`
-  width: calc(100% - 6rem);
+  width: 70%;
   height: 2px;
   position: absolute;
   bottom: 0;

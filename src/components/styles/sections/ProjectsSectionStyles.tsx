@@ -53,6 +53,10 @@ export const ProjectContainer = styled.div`
   position: relative;
   margin: 3rem 5%;
   perspective: 1000px;
+
+  @media (max-width: ${(props: iProps): string => props.theme.mobile}) {
+    flex-direction: column;
+  }
 `
 
 export const ProjectImageContainer = styled.div<iProps>`
@@ -74,6 +78,12 @@ export const ProjectImageContainer = styled.div<iProps>`
 
   &:hover #background {
     transform: rotate(3deg);
+  }
+
+  @media (max-width: ${(props: iProps): string => props.theme.mobile}) {
+    width: 70%;
+    transform: rotateY(0deg);
+    margin-bottom: 20px;
   }
 `
 
@@ -141,6 +151,11 @@ export const ProjectDescriptionContainer = styled.div<iProps>`
 
   & > p {
     font-size: 1.2rem;
+  }
+
+  @media (max-width: ${(props: iProps): string => props.theme.mobile}) {
+    width: 70%;
+    height: auto;
   }
 `
 
