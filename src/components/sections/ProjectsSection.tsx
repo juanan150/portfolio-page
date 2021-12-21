@@ -11,6 +11,8 @@ import {
   ProjectTagContainer,
   StyledProjectsSection,
 } from '../styles/sections/ProjectsSectionStyles'
+import { SectionEnd } from '../styles/common/SectionEnd'
+
 import { projectsInfo } from '../../data/projects'
 import { FaGithub, FaLink } from 'react-icons/fa'
 
@@ -53,6 +55,7 @@ const ProjectsSection = () => {
           </ProjectDescriptionContainer>
         </ProjectContainer>
       ))}
+      <SectionEnd />
     </StyledProjectsSection>
   )
 }

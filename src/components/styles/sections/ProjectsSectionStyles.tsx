@@ -20,6 +20,7 @@ export const StyledProjectsSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
   text-align: center;
   width: 100%;

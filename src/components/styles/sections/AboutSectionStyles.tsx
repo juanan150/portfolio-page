@@ -118,16 +118,3 @@ export const AboutTextContainer = styled.div<iProps>`
     min-width: 320px;
   }
 `
-
-export const AboutSectionEnd = styled.hr<iProps>`
-  width: 70%;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
-  margin-top: 30px;
-  background: linear-gradient(
-    to right,
-    ${(props: iProps): string => props.theme.colors.orange} 0%,
-    ${(props: iProps): string => props.theme.colors.purple} 100%
-  );
-`

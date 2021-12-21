@@ -1,10 +1,11 @@
 import {
   AboutImage,
   AboutImageContainer,
-  AboutSectionEnd,
   AboutTextContainer,
   StyledAboutSection,
 } from '../styles/sections/AboutSectionStyles'
+
+import { SectionEnd } from '../styles/common/SectionEnd'
 
 const AboutSection = () => {
   return (
@@ -16,13 +17,13 @@ const AboutSection = () => {
           Hello <span>👋</span>
         </div>
         <p>
-          I am Juan Andrés, a software developer based in Colombia. I develop
-          full-blown web applications using the MERN Stack, and as I have more
-          skills in the front-end with React, I am currently studying and
-          learning a lot from the back-end witn Node.
+          I am Juan Andrés Quiroz, a software developer based in Colombia. I
+          developfull-blown web applications using the MERN Stack, and as I have
+          more skills in the front-end with React, I am currently studying and
+          learning a lot from the back-end witn Node.js.
         </p>
       </AboutTextContainer>
-      <AboutSectionEnd />
+      <SectionEnd />
     </StyledAboutSection>
   )
 }
