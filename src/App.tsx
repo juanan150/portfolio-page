@@ -4,6 +4,7 @@ import NavBar from './components/layout/NavBar'
 import HeroSection from './components/sections/HeroSection'
 import AboutSection from './components/sections/AboutSection'
 import ProjectsSection from './components/sections/ProjectsSection'
+import ContactSection from './components/sections/ContactSection'
 
 function App(): JSX.Element {
   const theme = {
@@ -27,6 +28,7 @@ function App(): JSX.Element {
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
+        <ContactSection />
       </ThemeProvider>
     </>
   )

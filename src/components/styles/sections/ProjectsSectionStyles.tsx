@@ -44,6 +44,7 @@ export const ProjectsTitleContainer = styled.div<iProps>`
   p {
     font-size: 1.2rem;
     font-weight: 400;
+    font-family: 'Poppins', sans-serif;
   }
 `
 
@@ -152,6 +153,8 @@ export const ProjectDescriptionContainer = styled.div<iProps>`
 
   & > p {
     font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
   }
 
   @media (max-width: ${(props: iProps): string => props.theme.mobile}) {
@@ -174,7 +177,7 @@ export const ProjectTag = styled.p<iProps>`
   color: ${(props) => props.theme.colors.white};
   background: rgba(0, 64, 77, 0.9);
   border-radius: 3px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 `
 
 export const ProjectLinksContainer = styled.div`
