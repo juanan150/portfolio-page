@@ -18,9 +18,10 @@ const AboutSection = () => {
         </div>
         <p>
           I am Juan Andrés Quiroz, a software developer based in Colombia. I
-          developfull-blown web applications using the MERN Stack, and as I have
-          more skills in the front-end with React, I am currently studying and
-          learning a lot from the back-end witn Node.js.
+          develop full-blown web applications using the MERN Stack, and as I
+          have more skills in the front-end with React, I am currently studying
+          and learning a lot from the back-end witn Node.js and Serverless with
+          Firebase.
         </p>
       </AboutTextContainer>
       <SectionEnd />
