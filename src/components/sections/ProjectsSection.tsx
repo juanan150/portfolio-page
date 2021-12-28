@@ -41,12 +41,12 @@ const ProjectsSection = () => {
             </ProjectTagContainer>
             <p>{project.description}</p>
             <ProjectLinksContainer>
-              <ProjectLink href={project.codeLink}>
+              <ProjectLink href={project.codeLink} target="_blank">
                 <FaGithub />
                 View Code
               </ProjectLink>
               {project.liveLink && (
-                <ProjectLink href={project.liveLink}>
+                <ProjectLink href={project.liveLink} target="_blank">
                   <FaLink />
                   Live Demo
                 </ProjectLink>

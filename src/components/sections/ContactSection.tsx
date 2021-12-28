@@ -9,9 +9,11 @@ import {
 } from '../styles/sections/ContactSectionStyles'
 import { IoMail } from 'react-icons/io5'
 
+import { SectionEnd } from '../styles/common/SectionEnd'
+
 const ContactSection = () => {
   return (
-    <StyledContactSection>
+    <StyledContactSection id="contact">
       <ContactTitleContainer>
         <h1>Contact</h1>
         <p>Get in touch</p>
@@ -35,6 +37,7 @@ const ContactSection = () => {
           <img src="/images/email.svg" alt="contact" />
         </ContactImageContainer>
       </ContactContainer>
+      <SectionEnd />
     </StyledContactSection>
   )
 }

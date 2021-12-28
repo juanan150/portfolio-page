@@ -33,7 +33,7 @@ html {
 a {
     text-decoration: none;
     color: ${(props: iProps): string => props.theme.colors.green};
-    transition: all 250ms ease-in.out;
+    transition: all 350ms ease-in.out;
 
     &:hover{
         color: ${(props: iProps): string => props.theme.colors.orange};

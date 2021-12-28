@@ -5,6 +5,7 @@ import HeroSection from './components/sections/HeroSection'
 import AboutSection from './components/sections/AboutSection'
 import ProjectsSection from './components/sections/ProjectsSection'
 import ContactSection from './components/sections/ContactSection'
+import Footer from './components/layout/Footer'
 
 function App(): JSX.Element {
   const theme = {
@@ -29,6 +30,7 @@ function App(): JSX.Element {
         <AboutSection />
         <ProjectsSection />
         <ContactSection />
+        <Footer />
       </ThemeProvider>
     </>
   )

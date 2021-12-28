@@ -11,10 +11,6 @@ export const NavItems = [
     text: 'Projects',
   },
   {
-    href: '#services',
-    text: 'Services',
-  },
-  {
     href: '#contact',
     text: 'Contact',
   },
